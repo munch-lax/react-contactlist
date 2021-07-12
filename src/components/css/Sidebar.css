@@ -1,0 +1,29 @@
+.sidebar{
+    position: fixed;
+    background-image: linear-gradient(to bottom, rgb(255,129,110) , rgb(249,103,163));
+    height: 100%;
+    width: 50px;
+    display: flex;
+    left: 0px;
+    
+    
+}
+.margincheck{
+    list-style-type: none;
+    margin-left: -23px;
+}
+
+i{
+    color: white;
+    margin-top: 40px;
+}
+
+@media screen and (max-width : 500px){
+    .sidebar{
+        width: 30px;
+    }
+    .margincheck{
+        margin-left: -32px;
+    }
+
+}

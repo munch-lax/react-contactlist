@@ -1,0 +1,16 @@
+.banner{
+    
+    margin-left: 36px;
+    display: flex;
+    height: 100vh;
+    justify-content: left;
+    
+}
+.hidecol{
+    display: none;
+}
+@media screen and (max-width : 1000px){
+    .hidecol{
+        display: block;
+    }
+}

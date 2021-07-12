@@ -1,0 +1,117 @@
+.listwrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    
+    
+
+}
+.search{
+    margin-left: 50px;
+    
+}
+.search input{
+    border-style: none;
+    width: 250px;
+    height: 35px;
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #efe9e9;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.addcontacts{
+    color: white;
+    border-radius: 4px;
+    border-color: #efe9e9;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    margin-left: 10px;
+    background-image: linear-gradient(to right, rgb(255,129,110) , rgb(249,103,163));
+    
+}
+.logocontent{
+   
+    color:black;
+    margin-top: 30px;
+    
+}
+.col{
+    flex-grow: unset;
+}
+.fa-address-book{
+    color: rgb(252, 98, 162);
+}
+
+.list{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100%;
+    
+}
+.heading{
+    color: rgb(136, 136, 136) !important;
+    margin-left: 0px;
+    display: flex;
+   float: right;
+    width: 100%;
+    background-color:rgb(241,241,241);
+    height: 50px;
+    padding-top: 12px;
+}
+.heading i{
+    color: rgb(136, 136, 136) !important;
+
+}
+
+.modal{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    height: 520px;
+    
+
+}
+.cardwrapper{
+    height: auto;
+    overflow-y:unset ;
+    overflow-x: unset;
+}
+
+@media screen and (max-width : 1000px){
+    .search input{
+        max-width: 160px;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .search input{
+        max-width: 150px;
+    }
+    .search{
+        margin-left: 0px;
+    }
+    .list{
+        margin-left: -10px;
+    }
+    .addcontacts{
+        width: 100px;
+        font-size: 11px;
+        margin-left: 4px;
+    }
+    
+}
+
+@media screen and (max-width : 768px){
+.cardwrapper{
+    height: 260px;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+}
+}
+
