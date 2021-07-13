@@ -1,0 +1,59 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Jugal change",
+      "email": "jg@mail.com",
+      "phoneno": "9129991293",
+      "address": "12345",
+      "company": "xyzabc",
+      "color": "#82db93"
+    },
+    {
+      "id": 2,
+      "name": "Rahul changed",
+      "email": "ra@gmail.com",
+      "phoneno": "9129991289",
+      "address": "12345 xyz",
+      "company": "xyz",
+      "color": "#ff629e"
+    },
+    {
+      "id": 3,
+      "name": "saksham  new",
+      "email": "sk@gmail.co.in",
+      "phoneno": "9129991277",
+      "address": "1234",
+      "company": "xyz12",
+      "color": "#d9d7d8"
+    },
+    {
+      "id": 4,
+      "name": "Shubham Gurnani",
+      "email": "sh@gmail.com",
+      "company": "xyza",
+      "address": "123",
+      "phoneno": "9129991200",
+      "role": "abc",
+      "color": "#36372"
+    },
+    {
+      "name": "test gurnani",
+      "email": "ragurnani.rg@gmail.com",
+      "phoneno": "9552631665",
+      "address": "Flat no 2 5A navjeevan society chembur",
+      "company": "Qin1",
+      "color": "#82db93",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "saksh",
+      "email": "ragurnani@gmail.com",
+      "phoneno": "1010101010",
+      "address": "ss",
+      "company": "dd",
+      "color": "#f87f6b"
+    }
+  ]
+}
